@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+
+.header-container {
+    display: flex;
+    height: 15vh;
+    width: 100%;
+}
+
+.image-container {
+    height: 13vh;
+    margin-left: 5vw;
+    margin-top: 20px;
+    /* width: px; */
+
+}
+
+.logo-image {
+    height: 100%;
+    border-radius: 15px;
+    /* width: 100%; */
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.tagline {
+    margin-left: 3vw;
+    margin-top: 0;
+}
+
+.description {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 20px;
+}
+
+.policy-title{
+    margin-left: 5vw;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text{
+    margin-left: 5vw;
+    margin-top: 20px;
+    margin-right: 5vw;
+}
+
+.subtitle {
+    margin-left: 5vw;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.bullet {
+    margin-left: 10vw;
+}
+
+.wrap-bullet{
+    margin-left: 10vw;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    margin-top: 20px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email-container{
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+a.email {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    font-size: 75%;
+}
+
+a.email:hover {
+    color: #a4dbb3;
+}
+
+.mssdev-image {
+    height: 5rem;
+}
